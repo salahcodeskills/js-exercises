@@ -21,3 +21,10 @@ function factorial(num) {
     return result;
 }
 //factorial (4) 4 x 3 x 2 x 1
+
+function kebabToSnake(str) {
+    // replace all '-' with "_" 's
+    var newStr = str.replace(/-/g, "_");
+    //return str
+    return newStr;
+}
